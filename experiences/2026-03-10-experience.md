@@ -1,6 +1,6 @@
 # 经验文档 - 2026-03-10
 
-**生成时间**: 2026-03-10T14:30:31.832144
+**生成时间**: 2026-03-10T23:00:01.373649
 
 ---
 
@@ -20,6 +20,11 @@ CRITICAL: After installing NVIDIA driver, must disable nouveau and reboot. Check
 ### 经验 3
 
 User experience is paramount. Always provide immediate feedback. Use process poll with short timeouts. Never let user wait in silence for more than 10-15 seconds.
+
+
+### 经验 4
+
+Network timeout in China: Always configure git to use V2Ray proxy (http://127.0.0.1:10809). For merge conflicts in README, combine content from both versions. Use systemctl to verify V2Ray is running before pushing.
 
 
 ## 🔍 相关错误
